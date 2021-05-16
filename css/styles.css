@@ -1,0 +1,194 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300;500&display=swap');
+
+.navbar {
+  width: 100%;
+  background-color: #10bba7;
+  overflow: auto;
+  font-family: 'Recursive', sans-serif;
+  font-weight:300;
+}
+
+.h1-hero{
+  color:#FFF;
+}
+
+.h4-hero{
+  color:#FFF;
+}
+
+.content{
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
+.hero{
+  padding:0px !important;
+  margin:0px !important;
+  padding-top:40px;
+  padding-bottom:40px;
+}
+
+.row-padding-top{
+  padding-top:30px !important;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 20%;
+  text-align: center;
+  color:#FFF;
+}
+
+.img-perfil{
+  width:80%;
+  float:right;
+}
+
+.navbar a:hover {
+  background-color: #FFF;
+  color:#10bba7;
+}
+
+.p-conteudo{
+  font-family: 'Recursive', sans-serif;
+  font-weight:300;  
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /*background-color: #f1f1f1;*/
+  font-family: 'Recursive', sans-serif;
+  margin:0px !important;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.bg-color-1{
+  background:#10bba7;
+}
+
+.total-padding{
+  padding-top:40px;
+  padding-bottom:80px;
+  padding-left:40px;
+  padding-right:40px;
+  background:#20d2bb;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+h3{
+  color:#10bba7;
+}
+
+a:link{
+  /*color:#10bba7;*/
+}
+
+a:visited{
+  color:#13bba7;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+.column-4 {
+  float: left;
+  width: 25%;
+}
+
+.columm-2 {
+  float:left;
+  width:50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .content{
+    width:100%;
+  }
+
+  .columm-2{
+    width:100%;
+  }
+
+  .column-4{
+    width:100%;
+  }
+
+  .h1-hero{
+    font-size:20pt;
+  }
+}
+
+.logo-social{
+  width:50px;
+}
+
+.img-atividades-hobbies{
+  width:70px;
+}
+
+.col-trabalho{
+
+}
+
+.col-hobbies{
+
+}
