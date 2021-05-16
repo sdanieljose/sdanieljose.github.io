@@ -8,155 +8,240 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <title>Bt4 - GRID - Tapbots</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Zé</title> 
     
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300;500&display=swap');
 
-        body{
-          font-family: 'Recursive', sans-serif;
-        }
-
-        .col-5, 
-        .col-6, 
-        .col-12, 
-        .col-4, 
-        .col-3 
-        {
-           /* outline: 1px solid #999; */
-        }
-        
-        .header h1,
-        .header h2 {
-            display: inline;
-        }
-        
-        .header h2 {
-            font-size: 1em;
-        }
-        
-        .footer .title {
-            display: block;
-        }
-        
-        .big-front,
-        .products
-        {
-            margin-top: 30px;
-        }
-        
-        .footer {
-            margin-top: 80px;
-            margin-bottom: 100px;
-        }
-        
-        .footer .card img {
-            margin-top: -50px;
-        }
-        
     </style>
   </head>
   <body>
-    
-      <div class="container">
-          
-          <div class="row header">
-              <div class="col-5">
-                  <h1>Tapbots</h1>
-                  <h2>Robots for your iphone & ipod touch</h2>
+
+      <div class="container-fluid container-menu">
+
+          <div class="row">
+            <div class="container">
+              <div class="row header">
+                  <div class="col-5 col-logo-header">
+                      <h1 class="logo-header">Olá, sou o Zé</h1>
+                      <h2 class="sub-logo-header">Paulista, de 28 anos</h2>
+                  </div>
+                  
+                  <div class="col-6 col-nav offset-1">
+                      <nav class="navbar navbar-expand-lg navbar-light">
+                        
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                          <ul class="navbar-nav">
+                            <li class="nav-item btn btn-link active">
+                              <a class="nav-link" href="#">Home <span class="sr-only">(Página atual)</span></a>
+                            </li>
+                            <li class="nav-item btn btn-link">
+                              <a class="nav-link" href="#">Quem sou</a>
+                            </li>
+                            <li class="nav-item btn btn-link">
+                              <a class="nav-link" href="#">Atividades & Hobbies</a>
+                            </li>
+                            <li class="nav-item btn btn-link">
+                              <a class="nav-link" href="#">Provas Longas</a>
+                            </li>
+                            <li class="nav-item btn btn-link">
+                              <a class="nav-link" href="#">Contato</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </nav>
+                  </div>
               </div>
-              <div class="col-6 offset-1">
-                  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                      <ul class="navbar-nav">
-                        <li class="nav-item btn btn-light active">
-                          <a class="nav-link" href="#">Home <span class="sr-only">(Página atual)</span></a>
-                        </li>
-                        <li class="nav-item btn btn-light">
-                          <a class="nav-link" href="#">Software</a>
-                        </li>
-                        <li class="nav-item btn btn-light">
-                          <a class="nav-link" href="#">Support</a>
-                        </li>
-                        <li class="nav-item btn btn-light">
-                          <a class="nav-link" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item btn btn-light">
-                          <a class="nav-link" href="#">Company</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </nav>
-              </div>
+            </div>
           </div>
+        </div>
+
+
+        <div class="container">
           <div class="row big-front">
               <div class="col-12">
-                  <img class="img-fluid" src="https://via.placeholder.com/1280x500?text=big+logo" alt="Logo">
+                  <img class="img-fluid" src="imgs/perfil/aurora-boreal-perfil.jpg" alt="Logo">
+
+                  <div class="bloco-descricao-foto">
+                    Aurora Boreal, um sonho a realizar com o aprendizado na UTFPR
+                  </div>
               </div>
           </div>
+
+          <div class="row products">
+            <div class="col-lg-12 text-center">
+              <hr />
+
+              <h3 class="h-title-section">Bio</h3>
+
+              <hr />
+            </div>
+
+            <div class="col-lg-6">
+              <p class="p-conteudo">
+                Sou o José Daniel, sou paulista com o sangue bahiano, atualmente, <b>estudo Sistemas para Internet na UTFPR remotamente</b> por conta do cenário pandêmico.
+              </p>
+
+              <p class="p-conteudo">
+                Desde cedo, aprendi sobre trabalhar e estudar para conquistar meus objetivos, <b>com grandes exemplos na família</b>, trabalho desde os 13 anos e desde então nunca parei e <b>espero que nunca pare de sempre correr</b> atrás dos meus objetivos e sonhos.
+              </p>
+
+              <p class="p-conteudo">
+                Sou um completo curioso, <b>gosto sempre de aprender, inovar e ter novas experiências</b> que tragam algum aprendizado para minha vida, seja no âmbito profissional ou pessoal, acredito fortemente no conceito de <i>Lifelong Learning</i>, ou seja, sempre buscar aprender algo novo.
+              </p>
+            </div>
+
+            <div class="col-lg-6">
+              <img src="imgs/perfil/perfil.jpg" class="img-fluid">
+            </div>
+          </div>
+
           <div class="row products text-center">
-              <div class="col-lg-4">
-                <div class="card">
-                    <img class="card-img-top" src="https://via.placeholder.com/180x100?text=Image+cap" alt="Imagem de capa do card">
+              <div class="col-lg-12">
+                <hr />
+
+                <h3 class="h-title-section">Atividades</h3>
+
+                <hr />
+              </div>
+
+              <div class="col-lg-3 card-sobre">
+                <div class="card card-no-border">
+                    <img class="card-img-top" src="imgs/atividades-hobbies/trabalho.png" alt="Imagem de capa do card">
                     <div class="card-body">
-                        <h3 class="card-title text-uppercase">WeightBot</h3>
-                        <h4 class="card-subtitle text-muted">Trach your weight</h4>
+                        <h3 class="card-title text-uppercase">Trabalho</h3>
+                        <h4 class="card-subtitle text-muted">Sou PJ, Designer, WebDesigner, Dev, Gestor de Anúncios, Social Media e Criador de Conteúdo.</h4>
                     </div>
                 </div>
               </div>
-              <div class="col-lg-4">
-                <div class="card">
-                    <img class="card-img-top" src="https://via.placeholder.com/180x100?text=Image+cap" alt="Imagem de capa do card">
+              <div class="col-lg-3 card-sobre">
+                <div class="card card-no-border">
+                    <img class="card-img-top" src="imgs/atividades-hobbies/leitura.png" alt="Imagem de capa do card">
                     <div class="card-body">
-                        <h3 class="card-title text-uppercase">CalcBot</h3>
-                        <h4 class="card-subtitle text-muted">Calculate Inteligently</h4>
+                        <h3 class="card-title text-uppercase">Hobbies</h3>
+                        <h4 class="card-subtitle text-muted">Nas horas vagas gosto de ler, assistir e de praticar esportes, sou corredor de provas longas.</h4>
                     </div>
                 </div>
               </div>
-              <div class="col-lg-4">
-                <div class="card">
-                    <img class="card-img-top" src="https://via.placeholder.com/180x100?text=Image+cap" alt="Imagem de capa do card">
+              <div class="col-lg-3 card-sobre">
+                <div class="card card-no-border">
+                    <img class="card-img-top" src="imgs/atividades-hobbies/apoio.png" alt="Imagem de capa do card">
                     <div class="card-body">
-                        <h3 class="card-title text-uppercase">ConvertBot</h3>
-                        <h4 class="card-subtitle text-muted">Convert your units</h4>
+                        <h3 class="card-title text-uppercase">Causas</h3>
+                        <h4 class="card-subtitle text-muted">Doador de Sangue Hospital Beneficência Portuguesa/SP e Apoiador do Hospital do Câncer de Barretos/SP.</h4>
                     </div>
                 </div>
               </div>
+
+              <div class="col-lg-3 card-sobre">
+                <div class="card card-no-border">
+                    <img class="card-img-top" src="imgs/atividades-hobbies/familia.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h3 class="card-title text-uppercase">Família</h3>
+                        <h4 class="card-subtitle text-muted">Acredito que a família seja a base de tudo na vida, tenho as melhores pessoas ao meu lado me apoiando.</h4>
+                    </div>
+                </div>
+              </div>              
           </div>
+
+          <div class="row products text-center">
+              <div class="col-lg-12">
+                <hr />
+
+                <h3 class="h-title-section">Provas longas</h3>
+
+                <hr />
+              </div>
+
+              <div class="col-lg-3 card-sobre">
+                <div class="card card-no-border">
+                    <img class="card-img-top img-corrida" src="imgs/corrida/corrida_2.jpg" alt="75km Bertioga Maresias" style="width:100%">
+                    <div class="card-body">
+                        <h3 class="card-title text-uppercase">42km São Paulo</h3>
+                        <h4 class="card-subtitle text-muted">Depois de algumas provas, o desafio foi de conquistar a primeira maratona, que veio no dia do meu aniversário. Um grande sonho realizado.</h4>
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-3 card-sobre">
+                <div class="card card-no-border">
+                    <img class="card-img-top img-corrida" src="imgs/corrida/corrida_4.jpg" alt="Imagem de capa do card" style="width:100%;">
+                    <div class="card-body">
+                        <h3 class="card-title text-uppercase">75km Bertioga Maresias</h3>
+                        <h4 class="card-subtitle text-muted">Meses após conquistar a primeira maratona, costeei o litoral paulista, saindo de Bertioga e chegando à Maresias para completar 75km.</h4>
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-3 card-sobre">
+                <div class="card card-no-border">
+                    <img class="card-img-top img-corrida" src="imgs/corrida/corrida_1.jpg" alt="Imagem de capa do card" style="width:100%;">
+                    <div class="card-body">
+                        <h3 class="card-title text-uppercase">50km Chapada Diamantina</h3>
+                        <h4 class="card-subtitle text-muted">Me sentindo em casa, tive a oportunidade de correr em Mucugê, na Chapada Diamantina a UTCD, prova dura em meio as montanhas bahianas.</h4>
+                    </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 card-sobre">
+                <div class="card card-no-border">
+                    <img class="card-img-top img-corrida" src="imgs/corrida/corrida_4.jpg" alt="Imagem de capa do card" style="width:100%;">
+                    <div class="card-body">
+                        <h3 class="card-title text-uppercase">42km São Paulo</h3>
+                        <h4 class="card-subtitle text-muted">Em São Paulo novamente e buscando cumprir algumas tradições, mais uma vez completando 42km na Maratona Internacional de São Paulo.</h4>
+                    </div>
+                </div>
+              </div>              
+          </div>
+
           <div class="row footer text-center">
+              <div class="col-lg-12">
+                <hr />
+
+                <h3 class="h-title-section">Redes Sociais</h3>
+
+                <hr />
+              </div>
+
               <div class="col-lg-3 col-md-6">
                   <div class="card">
                       <div class="card-body">
-                          <img class="img-fluid" src="https://via.placeholder.com/180x100?text=Image+cap" alt="Imagem de capa do card">
-                          <span class="title">About Us</span>
+                        <a href="https://fb.com/sdanieljose" target="_blank">
+                          <img class="img-fluid logo-footer" src="imgs/social-icons/facebook.png" alt="Imagem de capa do card">
+                          <span class="title">Facebook</span>
+                        </a>
                       </div>
                   </div>
               </div>
               <div class="col-lg-3 col-md-6">
                   <div class="card">
                       <div class="card-body">
-                          <img class="img-fluid" src="https://via.placeholder.com/180x100?text=Image+cap" alt="Imagem de capa do card">
-                          <span class="title">Read the Blog</span>
+                        <a href="https://instagram.com/sdans_" target="_blank">
+                          <img class="img-fluid logo-footer" src="imgs/social-icons/instagram.png" alt="Imagem de capa do card">
+                          <span class="title">Instagram</span>
+                        </a>
                       </div>
                   </div>
               </div>
               <div class="col-lg-3 col-md-6">
                   <div class="card">
                       <div class="card-body">
-                          <img class="img-fluid" src="https://via.placeholder.com/180x100?text=Image+cap" alt="Imagem de capa do card">
-                          <span class="title">Get Help</span>
+                        <a href="https://behance.com/sdanieljose" target="_blank">
+                          <img class="img-fluid logo-footer" src="imgs/social-icons/behance.png" alt="Imagem de capa do card">
+                          <span class="title">Behance</span>
+                        </a>
                       </div>
                   </div>
               </div>
               <div class="col-lg-3 col-md-6">
                   <div class="card">
                       <div class="card-body">
-                          <img class="img-fluid" src="https://via.placeholder.com/180x100?text=Image+cap" alt="Imagem de capa do card">
-                          <span class="title">Follow Tapblots</span>
+                        <a href="https://linkedin.com/in/sdanieljose" target="_blank">
+                          <img class="img-fluid logo-footer" src="imgs/social-icons/linkedin.png" alt="Imagem de capa do card">
+                          <span class="title">Linkedin</span>
+                        </a>
                       </div>
                   </div>
               </div>
